@@ -4,91 +4,62 @@ WEEK-3 QUIZ
 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------
-1.  Question.   In the struct
-                    struct point{
-                    double x;
-                    double y;
-                    } p1 = { 2.5, 4.0};
-                The value of p1.x is
-
-    Ans. 2.5
+1.  Question. The C library function malloc()
+    Ans. returns a pointer
 --------------------------------------------------------------------------------------------------------------------------------------------------------
-2.  Question.   If we have pointer 
-                    struct point* ptr = &p1;
-                With p1 as
-                    struct point{
-                    double x;
-                    double y;
-                    } p1 = { 2.5, 4.0};
-                Then ptr->y has the value
+2.  Question.   The code
+                    while(h != NULL) {
+                    …
+                    }
+                Is typical for:
 
-    Ans. 4.0
+    Ans.  Processing a list
 --------------------------------------------------------------------------------------------------------------------------------------------------------
-3.  Question. Which is a basic elementary operation for a stack
-    Ans. Empty
+3.  void concat(list* h1, list* h2)
+
+    Question.   as described concatenates two lists. If list h1 has n elements and list h2 has m elements where m > n,  
+                then concatenation takes approximately proportional to list lengths
+    Ans. n
 --------------------------------------------------------------------------------------------------------------------------------------------------------
-4.  Question.   In the code snippet
-                    struct point{
-                    double x;
-                    double y;
-                    } p1 = { 4, 4.0};
-
-                    printf("%f\n", p1.x);
-                What gets printed?
-
-    Ans. 4.000000
+4.  Question. A complete binary tree of depth 5 would have
+    Ans. 32 leaf nodes
 --------------------------------------------------------------------------------------------------------------------------------------------------------
-5.  Question.   In the code snippet
-                    struct point{
-                    double x;
-                    double y;
-                    } p1 = {2.5, 4.0};
+5.  void postorder(BTREE root)
+    {
+        if (root != NULL) {
+            postorder(root -> left);
+            postorder(root -> right);
+            printf(“%c “, root -> d);
+        }
+    }
 
-                    printf("%f\n", p1.x);
-                What gets printed?
-
-    Ans. 2.500000
+    Ans. Is recursive
 --------------------------------------------------------------------------------------------------------------------------------------------------------
-6.  Question.   If we have pointer 
-                    struct point* ptr = &p1;
-
-                With p1 as
-                    struct point{
-                    double x;
-                    double y;
-                    } p1;
-
-                Then ptr->y has the value
-
-    Ans.  0.0
+6.  Question. The C library function calloc()
+    Ans.  sets memory to 0
 --------------------------------------------------------------------------------------------------------------------------------------------------------
-7.  Question.   If we have pointer 
-                    struct point* ptr = &p1;
+7.  while(h != NULL) {
+    …
+    }
 
-                With p1 as
-                    struct point{
-                    double x;
-                    double y;
-                    } p1 = {2.5};
-
-                Then ptr->x has the value
-
-    Ans. 2.5
+    Question. is not ideal when:
+    Ans. h can never equal to NULL
 --------------------------------------------------------------------------------------------------------------------------------------------------------
-8.  Question.   What operation would you use to add something onto a stack?
-    Ans. Push
+8.  Question. as described concatenates two lists. If list h1 has n elements and list h2 has m elements where m < n,  
+            then concatenation takes approximately proportional to list lengths
+    Ans. n
 --------------------------------------------------------------------------------------------------------------------------------------------------------
-9.  Question.   If we push all the elements of the array int data[20]; onto a stack – the element at the bottom of the stack is
-    Ans. data[0]
+9.  Question. A complete binary tree of depth 8 would have
+    Ans. 256
 --------------------------------------------------------------------------------------------------------------------------------------------------------
-10. Question.   If we have pointer 
-                    struct point* ptr = &p1;
-                With p1 as
-                    struct point{
-                    double x;
-                    double y;
-                    } p1 = {4, p1.x};
-                Then ptr->y has the value
+10. void postorder(BTREE root)
+    {
+        if (root != NULL) {
+            postorder(root -> left);
+            postorder(root -> right);
+            printf(“%c “, root -> d);
+        }
+    }
 
-    Ans. 4
+    Ans. Will make no change to a given BTREE object
 --------------------------------------------------------------------------------------------------------------------------------------------------------
