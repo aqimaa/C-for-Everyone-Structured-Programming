@@ -1,0 +1,301 @@
+***********************
+FINAL EXAM
+***********************
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+1.  Question. True/False: Switch is a keyword  
+
+    Ans. True
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+2.  Question. True/False: printf is a keyword
+
+    Ans. False
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+3.  Question. True/False: ||  is the address operator
+
+    Ans. False
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+4.  Question. True/False: EOF is a keyword
+                
+    Ans. False
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+5.  Question. True/False: malloc is an operator
+
+    Ans. False
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+6.  typedef enum choices {left, left_center = 2, right_center, right = 5} choices
+
+    Question. The enumerator left has what value ? 
+    Ans.  0
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+7.  Question. The enumerator right_center has what value? 
+
+    Ans. 3
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+8.  #include<stdio.h>
+    int main()
+    {
+    int a = 2, b = 5, c = 8;
+
+    printf("  a && b  = %d \n ",  a && b);
+    printf(" b %% a   = %d \n ", b % a );  
+    printf(" a / b    = %d \n " , a/b); 
+    printf(" 2 * a + 1 < b = %d \n ", 2*a + 1 < b);  
+    printf(" b <= c = %d \n "  , b<= c);
+    printf(" !!c = %d \n " , !!c); 
+    printf(" c > 2 && a > 6 = %d \n " , c> 2 && a > 6); 
+    printf(" b == 2||a != 4 = %d \n ", b == 2 || a != 4 );
+    printf(" (a + b) * c-- = %d \n ",  (a + b) * c-- );
+    printf(" c = ++b = %d \n ",c = ++b);  
+    return 0;
+    }
+
+    Question. For the code above, what is the value of the format specifier corresponding to the print statement " a && b =  "
+    Ans. 1
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+9.  #include<stdio.h>
+    int main()
+    {
+    int a = 2, b = 5, c = 8;
+
+    printf("  a && b  = %d \n ",  a && b);
+    printf(" b %% a   = %d \n ", b % a );  
+    printf(" a / b    = %d \n " , a/b); 
+    printf(" 2 * a + 1 < b = %d \n ", 2*a + 1 < b);  
+    printf(" b <= c = %d \n "  , b<= c);
+    printf(" !!c = %d \n " , !!c); 
+    printf(" c > 2 && a > 6 = %d \n " , c> 2 && a > 6); 
+    printf(" b == 2||a != 4 = %d \n ", b == 2 || a != 4 );
+    printf(" (a + b) * c-- = %d \n ",  (a + b) * c-- );
+    printf(" c = ++b = %d \n ",c = ++b);  
+    return 0;
+    }
+
+    Question. For the code above, what is the value of the format specifier corresponding to the print statement " b % a =   "
+    Ans. 1
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+10. #include<stdio.h>
+    int main()
+    {
+    int a = 2, b = 5, c = 8;
+
+    printf("  a && b  = %d \n ",  a && b);
+    printf(" b %% a   = %d \n ", b % a );  
+    printf(" a / b    = %d \n " , a/b); 
+    printf(" 2 * a + 1 < b = %d \n ", 2*a + 1 < b);  
+    printf(" b <= c = %d \n "  , b<= c);
+    printf(" !!c = %d \n " , !!c); 
+    printf(" c > 2 && a > 6 = %d \n " , c> 2 && a > 6); 
+    printf(" b == 2||a != 4 = %d \n ", b == 2 || a != 4 );
+    printf(" (a + b) * c-- = %d \n ",  (a + b) * c-- );
+    printf(" c = ++b = %d \n ",c = ++b);  
+    return 0;
+    }
+
+    Question. For the code above, what is the value of the format specifier corresponding to the print statement " a /  b =  "
+    Ans. 0
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+11. #include<stdio.h>
+    int main()
+    {
+    int a = 2, b = 5, c = 8;
+
+    printf("  a && b  = %d \n ",  a && b);
+    printf(" b %% a   = %d \n ", b % a );  
+    printf(" a / b    = %d \n " , a/b); 
+    printf(" 2 * a + 1 < b = %d \n ", 2*a + 1 < b);  
+    printf(" b <= c = %d \n "  , b<= c);
+    printf(" !!c = %d \n " , !!c); 
+    printf(" c > 2 && a > 6 = %d \n " , c> 2 && a > 6); 
+    printf(" b == 2||a != 4 = %d \n ", b == 2 || a != 4 );
+    printf(" (a + b) * c-- = %d \n ",  (a + b) * c-- );
+    printf(" c = ++b = %d \n ",c = ++b);  
+    return 0;
+    }
+
+    Question. For the code above, what is the value of the format specifier corresponding to the print statement " 2 * a + 1 < b = "
+    Ans. 0
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+12. #include<stdio.h>
+    int main()
+    {
+    int a = 2, b = 5, c = 8;
+
+    printf("  a && b  = %d \n ",  a && b);
+    printf(" b %% a   = %d \n ", b % a );  
+    printf(" a / b    = %d \n " , a/b); 
+    printf(" 2 * a + 1 < b = %d \n ", 2*a + 1 < b);  
+    printf(" b <= c = %d \n "  , b<= c);
+    printf(" !!c = %d \n " , !!c); 
+    printf(" c > 2 && a > 6 = %d \n " , c> 2 && a > 6); 
+    printf(" b == 2||a != 4 = %d \n ", b == 2 || a != 4 );
+    printf(" (a + b) * c-- = %d \n ",  (a + b) * c-- );
+    printf(" c = ++b = %d \n ",c = ++b);  
+    return 0;
+    }
+
+    Question. For the code above, what is the value of the format specifier corresponding to the print statement "  b <= c    =  "
+    Ans. 1
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+13. #include<stdio.h>
+    int main()
+    {
+    int a = 2, b = 5, c = 8;
+
+    printf("  a && b  = %d \n ",  a && b);
+    printf(" b %% a   = %d \n ", b % a );  
+    printf(" a / b    = %d \n " , a/b); 
+    printf(" 2 * a + 1 < b = %d \n ", 2*a + 1 < b);  
+    printf(" b <= c = %d \n "  , b<= c);
+    printf(" !!c = %d \n " , !!c); 
+    printf(" c > 2 && a > 6 = %d \n " , c> 2 && a > 6); 
+    printf(" b == 2||a != 4 = %d \n ", b == 2 || a != 4 );
+    printf(" (a + b) * c-- = %d \n ",  (a + b) * c-- );
+    printf(" c = ++b = %d \n ",c = ++b);  
+    return 0;
+    }
+
+    Question. For the code above, what is the value of the format specifier corresponding to the print statement "  !!c  = " 
+    Ans. 1
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+14. #include<stdio.h>
+    int main()
+    {
+    int a = 2, b = 5, c = 8;
+
+    printf("  a && b  = %d \n ",  a && b);
+    printf(" b %% a   = %d \n ", b % a );  
+    printf(" a / b    = %d \n " , a/b); 
+    printf(" 2 * a + 1 < b = %d \n ", 2*a + 1 < b);  
+    printf(" b <= c = %d \n "  , b<= c);
+    printf(" !!c = %d \n " , !!c); 
+    printf(" c > 2 && a > 6 = %d \n " , c> 2 && a > 6); 
+    printf(" b == 2||a != 4 = %d \n ", b == 2 || a != 4 );
+    printf(" (a + b) * c-- = %d \n ",  (a + b) * c-- );
+    printf(" c = ++b = %d \n ",c = ++b);  
+    return 0;
+    }
+
+    Question. For the code above, what is the value of the format specifier corresponding to the print statement "  c > 2 && a > 6 = "
+    Ans. 0
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+15. #include<stdio.h>
+    int main()
+    {
+    int a = 2, b = 5, c = 8;
+
+    printf("  a && b  = %d \n ",  a && b);
+    printf(" b %% a   = %d \n ", b % a );  
+    printf(" a / b    = %d \n " , a/b); 
+    printf(" 2 * a + 1 < b = %d \n ", 2*a + 1 < b);  
+    printf(" b <= c = %d \n "  , b<= c);
+    printf(" !!c = %d \n " , !!c); 
+    printf(" c > 2 && a > 6 = %d \n " , c> 2 && a > 6); 
+    printf(" b == 2||a != 4 = %d \n ", b == 2 || a != 4 );
+    printf(" (a + b) * c-- = %d \n ",  (a + b) * c-- );
+    printf(" c = ++b = %d \n ",c = ++b);  
+    return 0;
+    }
+
+    Question. For the code above, what is the value of the format specifier corresponding to the print statement "  b == 2 || a != 4 ="
+    Ans. 1
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+16. #include<stdio.h>
+    int main()
+    {
+    int a = 2, b = 5, c = 8;
+
+    printf("  a && b  = %d \n ",  a && b);
+    printf(" b %% a   = %d \n ", b % a );  
+    printf(" a / b    = %d \n " , a/b); 
+    printf(" 2 * a + 1 < b = %d \n ", 2*a + 1 < b);  
+    printf(" b <= c = %d \n "  , b<= c);
+    printf(" !!c = %d \n " , !!c); 
+    printf(" c > 2 && a > 6 = %d \n " , c> 2 && a > 6); 
+    printf(" b == 2||a != 4 = %d \n ", b == 2 || a != 4 );
+    printf(" (a + b) * c-- = %d \n ",  (a + b) * c-- );
+    printf(" c = ++b = %d \n ",c = ++b);  
+    return 0;
+    }
+
+    Question. For the code above, what is the value of the format specifier corresponding to the print statement " (a + b) * c-- ="
+    Ans. 56
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+17. #include<stdio.h>
+    int main()
+    {
+    int a = 2, b = 5, c = 8;
+
+    printf("  a && b  = %d \n ",  a && b);
+    printf(" b %% a   = %d \n ", b % a );  
+    printf(" a / b    = %d \n " , a/b); 
+    printf(" 2 * a + 1 < b = %d \n ", 2*a + 1 < b);  
+    printf(" b <= c = %d \n "  , b<= c);
+    printf(" !!c = %d \n " , !!c); 
+    printf(" c > 2 && a > 6 = %d \n " , c> 2 && a > 6); 
+    printf(" b == 2||a != 4 = %d \n ", b == 2 || a != 4 );
+    printf(" (a + b) * c-- = %d \n ",  (a + b) * c-- );
+    printf(" c = ++b = %d \n ",c = ++b);  
+    return 0;
+    }
+
+    Question. For the code above, what is the value of the format specifier corresponding to the print statement " c = ++b    = "
+    Ans. 6
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+18. Question. The sqrt() function returns  
+    Ans. double
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+19. Question. The rand() function is declared in
+    Ans. stdlib.h
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+20. Question. The function malloc() returns
+    Ans. void*
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+21. Question. The array declaration double data[5][4]; will allocate storage for
+    Ans. 20 doubles
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+22. enum myfoods{butter = 2, milk = 5, cheese = 8, eggs};
+
+    Question. eggs is the int value
+    Ans. 9
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+23. struct complex{ double real;  double imaginary;}  c1 = {  1.5,  -2.0}, c2; 
+    struct complex * ptr_c = &c1;
+
+    Question. The value of c1.real is the same as:   
+    Ans. ptr_c->real.
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+24. Question. The precedence of the operator  -> is
+    Ans. higher than all of these
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+25. Question. To find the kth element in an array versus the kth element in a linear list: 
+    Ans. the array element look-up is faster by approximately some proportion to k
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+26. int mystery(LINK head)
+    {
+       if (head == NULL)
+           return 0;
+       else
+           return( 1 + count(head -> next));
+    }
+
+    Question. This code:
+    Ans. counts the elements of a list
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+27. FILE *ofp;
+    fopen("temp", "w+");
+
+    Ans. temp is a file in the local directory
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+28. Question. Who created C++ ?
+    Ans. Bjarne Stroustrup
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+29. Question. In C++, which keyword has a significantly different meaning than in C?
+    Ans. auto
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+30. Question.   In the conversion specification 
+                %6lf 
+                The 6 means
+    Ans. field width is 6
+--------------------------------------------------------------------------------------------------------------------------------------------------------
